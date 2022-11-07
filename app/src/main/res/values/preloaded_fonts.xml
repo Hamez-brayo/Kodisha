@@ -2,6 +2,5 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/arsenal_bold</item>
-        <item>@font/playfair_display</item>
     </array>
 </resources>

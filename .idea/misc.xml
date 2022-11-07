@@ -3,20 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209" />
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/background.xml" value="0.2715" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/backgroundwhite.xml" value="0.1645" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/circlebuttons.xml" value="0.1085" />
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.2025" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1645" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/imagebackground.xml" value="0.1695" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/profilebackground.xml" value="0.1085" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_buy_or_rent.xml" value="0.16" />
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_login.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_property.xml" value="0.1634963768115942" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_register.xml" value="0.22" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_splash_screen.xml" value="0.25" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_user_profile.xml" value="0.2" />
+        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_splash_screen.xml" value="0.38697916666666665" />
       </map>
     </option>
   </component>
