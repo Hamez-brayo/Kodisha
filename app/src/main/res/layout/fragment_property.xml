@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Property">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ProfileBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+      />
+
+    <ImageView
+        android:id="@+id/BackBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+      />
+
+    <ImageView
+        android:id="@+id/ImageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/imagebackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PropertyName"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/imagewallapaper"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_wallpaper_24"
+        app:layout_constraintTop_toTopOf="@+id/ImageBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageBackground"
+        app:layout_constraintEnd_toEndOf="@id/ImageBackground"
+        app:layout_constraintStart_toStartOf="@id/ImageBackground"/>
+
+    <ImageView
+        android:id="@+id/BuyCart"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="495dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/ImageBackground"
+        android:layout_marginTop="32dp"
+        />
+
+    <ImageView
+        android:id="@+id/BuyBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:src="@drawable/imagebackground"
+        app:layout_constraintTop_toBottomOf="@id/ImageBackground"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@id/BuyCart"
+        android:layout_marginStart="16dp"/>
+    <ImageView
+        android:id="@+id/SellCart"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="495dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/BuyCart"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/SellBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:src="@drawable/imagebackground"
+        app:layout_constraintTop_toBottomOf="@id/BuyBtn"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/SellCart"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/BuyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        app:layout_constraintTop_toTopOf="@+id/BuyBtn"
+        app:layout_constraintStart_toStartOf="@id/BuyBtn"
+        app:layout_constraintEnd_toEndOf="@id/BuyBtn"
+        app:layout_constraintBottom_toBottomOf="@id/BuyBtn"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/background"
+
+        />
+    <TextView
+        android:id="@+id/SellTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELL"
+        app:layout_constraintTop_toTopOf="@+id/SellBtn"
+        app:layout_constraintStart_toStartOf="@id/SellBtn"
+        app:layout_constraintEnd_toEndOf="@id/SellBtn"
+        app:layout_constraintBottom_toBottomOf="@id/SellBtn"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/background"
+
+        />
+    <TextView
+        android:id="@+id/PropertyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Of Property"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/BackBtn"
+        android:layout_marginTop="16dp"
+
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
