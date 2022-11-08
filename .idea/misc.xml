@@ -12,12 +12,12 @@
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/imagebackground.xml" value="0.1695" />
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/drawable/profilebackground.xml" value="0.1085" />
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_buy_or_rent.xml" value="0.16" />
+        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_buy_or_rent.xml" value="0.33" />
         <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_login.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_property.xml" value="0.1634963768115942" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_register.xml" value="0.22" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_splash_screen.xml" value="0.25" />
-        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_user_profile.xml" value="0.2" />
+        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_property.xml" value="0.33" />
+        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_splash_screen.xml" value="0.33" />
+        <entry key="..\:/Users/OMEN/AndroidStudioProjects/Kodisha/app/src/main/res/layout/fragment_user_profile.xml" value="0.33" />
       </map>
     </option>
   </component>
