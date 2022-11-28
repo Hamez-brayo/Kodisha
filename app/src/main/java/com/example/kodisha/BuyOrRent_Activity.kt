@@ -27,10 +27,12 @@ class BuyOrRent_Activity : AppCompatActivity() {
     private fun listeners() {
        binding.BackgroundWhite.setOnClickListener{
             startActivity(Intent(this@BuyOrRent_Activity,RentActivity::class.java))
+           finish()
 
         }
         binding.BackgroundBlue.setOnClickListener{
-            startActivity(Intent(this@BuyOrRent_Activity,BuyActivity::class.java ))
+            startActivity(Intent(this@BuyOrRent_Activity,LandingActivity::class.java ))
+            finish()
         }
 //        findViewById<ImageView>(R.id.BackgroundBlue).setOnClickListener{
 //            startActivity(Intent(this@BuyOrRent_Activity,BuyActivity::class.java))

@@ -6,7 +6,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
     override fun getItemCount(): Int {
-        return 1
+        return 3
     }
 
 
@@ -14,8 +14,7 @@ class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapte
         //this one stores the fragments you want  to be output in the viewpager in an array list
         home(),
         explore(),
-        UserProfile()
-
+        UserProfile(),
 
     )
 

@@ -19,7 +19,10 @@ class Login_activity : AppCompatActivity() {
 
 
         auth = FirebaseAuth.getInstance()
-        login()
+       login()
+//        binding.LoginBTN.setOnClickListener{
+//            startActivity(Intent(this,BuyOrRent_Activity::class.java))
+//        }
     }
 
     private fun login() {

@@ -40,7 +40,8 @@
         app:endIconMode="clear_text"
         app:layout_constraintStart_toEndOf="@+id/ExploreMenu"
         app:layout_constraintEnd_toStartOf="@+id/ProfileCircle"
-        app:layout_constraintTop_toTopOf="Parent">
+        app:layout_constraintBottom_toTopOf="@+id/OnSaleTV"
+        android:layout_marginBottom="16dp">
 
         <EditText
 
@@ -98,7 +99,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"/>
     <ImageView
         android:id="@+id/placeholder2"
@@ -300,7 +301,7 @@
         android:textSize="18sp"
         android:textColor="@color/background"
         android:layout_marginTop="8dp"/>
-    
+
     <Button
         android:id="@+id/listing3Btn"
         android:layout_width="wrap_content"
