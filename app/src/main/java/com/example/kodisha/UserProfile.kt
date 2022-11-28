@@ -17,12 +17,8 @@ import com.google.firebase.storage.StorageReference
 
 class UserProfile : Fragment() {
     private lateinit var auth: FirebaseAuth
-    private lateinit var user: User
-    private lateinit var uid: String
     private lateinit var databaseReference: DatabaseReference
-    private lateinit var storageReference: StorageReference
     private lateinit var database: FirebaseDatabase
-    private lateinit var imageUri: Uri
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

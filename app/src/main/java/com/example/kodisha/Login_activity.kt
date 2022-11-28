@@ -20,9 +20,6 @@ class Login_activity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
        login()
-//        binding.LoginBTN.setOnClickListener{
-//            startActivity(Intent(this,BuyOrRent_Activity::class.java))
-//        }
     }
 
     private fun login() {
@@ -47,9 +44,6 @@ class Login_activity : AppCompatActivity() {
 
                     startActivity(Intent(this@Login_activity, BuyOrRent_Activity::class.java))
 
-                    //Toast.makeText(this@Login_activity,"Correct Credentials", Toast.LENGTH_LONG).show()
-
-//                    finish()
 
                 } else {
                     Toast.makeText(this@Login_activity, "Invalid Credentials", Toast.LENGTH_LONG)

@@ -28,7 +28,6 @@ class home : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        navController = NavHostFragment.findNavController(Fragment
 
         view.findViewById<ImageView>(R.id.imageView9).setOnClickListener{
             startActivity(Intent(activity, Property_activity::class.java) )

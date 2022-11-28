@@ -17,10 +17,6 @@ class BuyOrRent_Activity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-
-//        findViewById<ImageView>(R.id.BackgroundBlue).setOnClickListener{
-//            startActivity(Intent(this@BuyOrRent_Activity,RentActivity::class.java))
-//        }
         listeners()
     }
 
@@ -34,10 +30,6 @@ class BuyOrRent_Activity : AppCompatActivity() {
             startActivity(Intent(this@BuyOrRent_Activity,LandingActivity::class.java ))
             finish()
         }
-//        findViewById<ImageView>(R.id.BackgroundBlue).setOnClickListener{
-//            startActivity(Intent(this@BuyOrRent_Activity,BuyActivity::class.java))
-//
-//        }
 
     }
 }
